@@ -7,17 +7,18 @@ cask "haskell-language-server-full" do
   desc "Integration point for ghcide and haskell-ide-engine. One IDE to rule them all"
   homepage "https://github.com/haskell/haskell-language-server"
 
-  conflicts_with cask: [
-    "kret/tools/haskell-language-server-wrapper",
-    "kret/tools/haskell-language-server-864",
-    "kret/tools/haskell-language-server-865",
-    "kret/tools/haskell-language-server-882",
-    "kret/tools/haskell-language-server-883",
-    "kret/tools/haskell-language-server-884",
-    "kret/tools/haskell-language-server-8102",
-    "kret/tools/haskell-language-server-8103",
-    "kret/tools/haskell-language-server-8104",
-  ]
+  conflicts_with formula: "haskell-language-server",
+                 cask:    [
+                   "kret/tools/haskell-language-server-wrapper",
+                   "kret/tools/haskell-language-server-864",
+                   "kret/tools/haskell-language-server-865",
+                   "kret/tools/haskell-language-server-882",
+                   "kret/tools/haskell-language-server-883",
+                   "kret/tools/haskell-language-server-884",
+                   "kret/tools/haskell-language-server-8102",
+                   "kret/tools/haskell-language-server-8103",
+                   "kret/tools/haskell-language-server-8104",
+                 ]
 
   binary "haskell-language-server-wrapper"
   binary "haskell-language-server-8.6.4"
