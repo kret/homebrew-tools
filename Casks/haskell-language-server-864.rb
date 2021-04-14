@@ -1,6 +1,6 @@
 cask "haskell-language-server-864" do
-  version "1.0.0"
-  sha256 "6adf67f1814d46fd24a2aae69530e9ef42971f52bc836eefba5a09cdaa52a8d5"
+  version "1.1.0"
+  sha256 "a4a12f00e2e289d740efd3f640c330746b4ec4b5bafba22b7ab4c587c7a8bd7b"
 
   url "https://github.com/haskell/haskell-language-server/releases/download/#{version}/haskell-language-server-macOS-8.6.4.gz"
   name "Haskell Language Server for GHC 8.6.4"

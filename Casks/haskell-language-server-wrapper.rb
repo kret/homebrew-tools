@@ -1,6 +1,6 @@
 cask "haskell-language-server-wrapper" do
-  version "1.0.0"
-  sha256 "f6eb3f530e5a3a34e12779e38955e74667c6b823eefb725310836299712a2b46"
+  version "1.1.0"
+  sha256 "e5cf808961c51cc91ee0331479241d998f0193054a9c5f1019159ed6ed8f7943"
 
   url "https://github.com/haskell/haskell-language-server/releases/download/#{version}/haskell-language-server-wrapper-macOS.gz"
   name "Haskell Language Server wrapper"
