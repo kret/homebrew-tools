@@ -1,6 +1,6 @@
 cask "haskell-language-server-full" do
-  version "1.1.0"
-  sha256 "4e89b192e2f49637d772e974f2c17b16da067ecd5912575eaa542551de97681b"
+  version "1.2.0"
+  sha256 "43d2ef356fb8cbd8e27acf70f94c079157258916bb1220751547584513584aaa"
 
   url "https://github.com/haskell/haskell-language-server/releases/download/#{version}/haskell-language-server-macOS-#{version}.tar.gz"
   name "Haskell Language Server full release"
