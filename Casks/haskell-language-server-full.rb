@@ -1,6 +1,6 @@
 cask "haskell-language-server-full" do
   version "1.2.0"
-  sha256 "43d2ef356fb8cbd8e27acf70f94c079157258916bb1220751547584513584aaa"
+  sha256 "a310d8a3e9c5c4218210f750682c74a0f82ad0f59995adde0dbe775115b1e357"
 
   url "https://github.com/haskell/haskell-language-server/releases/download/#{version}/haskell-language-server-macOS-#{version}.tar.gz"
   name "Haskell Language Server full release"
@@ -18,6 +18,7 @@ cask "haskell-language-server-full" do
                    "kret/tools/haskell-language-server-8102",
                    "kret/tools/haskell-language-server-8103",
                    "kret/tools/haskell-language-server-8104",
+                   "kret/tools/haskell-language-server-8105",
                  ]
 
   binary "haskell-language-server-wrapper"
@@ -29,6 +30,7 @@ cask "haskell-language-server-full" do
   binary "haskell-language-server-8.10.2"
   binary "haskell-language-server-8.10.3"
   binary "haskell-language-server-8.10.4"
+  binary "haskell-language-server-8.10.5"
 
   caveats <<-EOS
     Install with `brew install #{token} --no-quarantine`,
